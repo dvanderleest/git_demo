@@ -14,7 +14,7 @@ Git is a powerful distributed version control system (VCS) that allows developer
 
 1. Snapshots, Not Differences:
 
-    - Unlike other VCSs (such as CVS or Subversion), Git thinks of its data as a series of snapshots.
+    - Unlike other VCS's (such as CVS or Subversion), Git thinks of its data as a series of snapshots.
     - Every time you commit (save the state of your project), Git captures a picture of all your files at that moment and stores a reference to that snapshot.
     - If files haven’t changed, Git doesn’t store them again; it links to the previous identical version.
 
@@ -27,7 +27,7 @@ Git is a powerful distributed version control system (VCS) that allows developer
 3. Branching:
 
     - Git allows you to create branches, which are independent lines of development.
-    - Branches help you work on features, bug fixes, or experiments without affecting the main project.
+    - Branches help you work on features, bugfixes, or experiments without affecting the main project.
     - You can merge branches back together when ready.
 
 4. Rebase and Merging:
