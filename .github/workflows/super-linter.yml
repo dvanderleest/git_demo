@@ -11,6 +11,9 @@ on:
     branches: [ "master" ]
   pull_request:
     branches: [ "master" ]
+
+permissions: read-all
+
 jobs:
   run-lint:
     runs-on: ubuntu-latest
